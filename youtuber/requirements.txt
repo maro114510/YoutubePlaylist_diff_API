@@ -1,0 +1,2 @@
+fastapi
+google-api-python-client
