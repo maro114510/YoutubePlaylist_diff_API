@@ -1,1 +1,6 @@
 test.ipynb
+__pycache__/
+youtube_api.py
+__init__.py
+api.py
+youtuber/config.py
