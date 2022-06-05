@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from googleapiclient.discovery import build
 
+import config 
+
 import datetime
 
 app = FastAPI()
@@ -9,7 +11,7 @@ app = FastAPI()
 # API権限の取得
 api_service_name = 'youtube'
 api_version = 'v3'
-DEVELOPER_KEY = 'AIzaSyA37YNwWV6juiyPFaLjIFUCh6pCISCDGYY'
+DEVELOPER_KEY = config.DEVELOPER_KEY
 
 # 時間の設定
 date = datetime.datetime.now().strftime("%Y/%m/%d")
