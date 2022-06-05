@@ -3,3 +3,4 @@ __pycache__/
 youtube_api.py
 __init__.py
 api.py
+yuotuber/config.py
