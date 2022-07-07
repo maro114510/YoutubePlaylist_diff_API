@@ -71,11 +71,6 @@ def video_titles(playlist_ids_):
   return music_dict
 
 
-# @app.get("/")
-# def send_playlist():
-#   # return json.dumps(video_titles(video_ids()),ensure_ascii=False)
-#   return video_titles(video_ids())
-
 @app.post("/")
 async def post_playlist(playlistId):
   return video_titles(video_ids(playlistId))
